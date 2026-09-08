@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Riddhuu! 🎂❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background particles -->
+    <div id="particles"></div>
+
+    <!-- Balloons container -->
+    <div id="balloons"></div>
+
+    <!-- Falling petals -->
+    <div id="petals"></div>
+
+    <!-- Main content -->
+    <div class="container">
+        <div class="card">
+            <h1 class="title">Happy Birthday!</h1>
+            <h2 class="name" id="birthdayName">Riddhuu</h2>
+            <p class="date">14 September ❤️</p>
+
+            <!-- Photos -->
+            <div class="photo-section">
+                <div class="main-photo">
+                    <img src="photo1.jpg" alt="Riddhuu" class="profile-img">
+                </div>
+                <div class="photo-gallery">
+                    <img src="photo1.jpg" alt="Riddhuu" class="gallery-img">
+                    <img src="photo2.jpg" alt="Riddhuu" class="gallery-img">
+                    <img src="photo3.jpg" alt="Riddhuu" class="gallery-img">
+                </div>
+            </div>
+            
+            <div class="cake-container">
+                <div class="cake">
+                    <div class="candle">
+                        <div class="flame"></div>
+                    </div>
+                    <div class="candle">
+                        <div class="flame"></div>
+                    </div>
+                    <div class="candle">
+                        <div class="flame"></div>
+                    </div>
+                    <div class="icing"></div>
+                    <div class="layer layer1"></div>
+                    <div class="layer layer2"></div>
+                    <div class="layer layer3"></div>
+                </div>
+            </div>
+
+            <p class="message" id="wishMessage">
+                May your special day be filled with happiness, love, and all your favorite things!  
+                Wishing you a year full of wonderful moments and sweet surprises. 💖
+            </p>
+
+            <div class="lyrics-box">
+                <h3 class="lyrics-title">🎵 Special Song Lyrics</h3>
+                <div class="lyrics">
+                    तोहसे मोरा नहीं मोहरा मनवा (आ आ)<br>
+                    होगी रे साथ मोहरा शगुनवा (आ आ)<br>
+                    सौंधा सौंधा सा ये साथ तोहरा (आ आ)<br>
+                    चुपके चुपके से महका दिया (आ आ)<br><br>
+                    तोहरे आगे मैं सर को झुका दू<br>
+                    तोहरे सपने फलक पे बिठा दू<br>
+                    काला टिका मैं तोहे लगा दू<br>
+                    रखियो मुझपे भरोसा ज़रा आ आ
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button id="playMusic" class="btn">🎵 Play Special Song</button>
+                <button id="blowCandles" class="btn secondary">💨 Blow Candles</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Audio -->
+    <audio id="bgMusic" loop>
+        <!-- Apna song yahan lagao. Pixabay se free download karke "birthday-song.mp3" naam se is folder me rakho -->
+        <source src="birthday-song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
